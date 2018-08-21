@@ -6,5 +6,5 @@
 // @grant none
 // ==/UserScript==
 
-if (document.body.parentElement.getAttribute('⚡') !== null)
+if (document.documentElement.getAttribute('⚡') !== null)
     window.location = document.head.querySelector('link[rel="canonical"]').href;
