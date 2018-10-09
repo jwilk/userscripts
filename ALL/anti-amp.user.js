@@ -11,3 +11,5 @@ if (document.documentElement.getAttribute('⚡') !== null || document.documentEl
     if (window.location != new_location)
         window.location = new_location;
 }
+
+// vim:ts=4 sts=4 sw=4 et
