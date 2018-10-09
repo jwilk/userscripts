@@ -6,5 +6,8 @@
 // @grant none
 // ==/UserScript==
 
-if (document.documentElement.getAttribute('⚡') !== null)
-    window.location = document.head.querySelector('link[rel="canonical"]').href;
+if (document.documentElement.getAttribute('⚡') !== null) {
+    let new_location = document.head.querySelector('link[rel="canonical"]').href;
+    if (window.location != new_location)
+        window.location = new_location;
+}
