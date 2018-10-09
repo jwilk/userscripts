@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name npr.org
+// @name npr-pro-choice
 // @description Fix the "Decline ..." button on NPR's "Data Protection Choices" page
 // @namespace jwilk@jwilk.net
 // @include https://choice.npr.org/*
