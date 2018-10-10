@@ -12,7 +12,7 @@
         display: none !important;
     }
 
-    a[href^="/join?"] {
+    a[href^="/join?"]:not(.btn) {
         color: #586069 !important;
     }
 
