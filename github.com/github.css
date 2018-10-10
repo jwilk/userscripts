@@ -1,0 +1,29 @@
+@-moz-document domain(github.com) {
+
+    .profile-rollup-content {
+        display: inherit !important;
+    }
+
+    .signup-prompt-bg {
+        display: none !important;
+    }
+
+    body.logged-out div[itemtype="http://schema.org/Person"] summary.text-small.muted-link {
+        display: none !important;
+    }
+
+    a[href^="/join?"] {
+        color: #586069 !important;
+    }
+
+}
+
+@-moz-document domain(blog.github.com) {
+
+    div.site-header {
+        position: relative !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
