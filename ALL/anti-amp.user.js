@@ -6,7 +6,8 @@
 // @grant none
 // ==/UserScript==
 
-if (document.documentElement.getAttribute('⚡') !== null || document.documentElement.getAttribute('amp') !== null) {
+let elt = document.documentElement;
+if (elt.getAttribute('⚡') !== null || elt.getAttribute('amp') !== null) {
     let new_location = document.head.querySelector('link[rel="canonical"]').href;
     if (window.location != new_location)
         window.location = new_location;
