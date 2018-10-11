@@ -1,0 +1,25 @@
+@-moz-document
+    domain(askubuntu.com),
+    domain(mathoverflow.net),
+    domain(serverfault.com),
+    domain(stackapps.com),
+    domain(stackoverflow.com),
+    domain(superuser.com),
+    domain(stackexchange.com)
+{
+
+    .new-topbar, .top-bar {
+        position: absolute !important;
+    }
+
+    .s-hero, .old-hero {
+        display: none !important;
+    }
+
+    #js-gdpr-consent-banner {
+        display: none !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
