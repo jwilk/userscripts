@@ -1,11 +1,3 @@
-// ==UserScript==
-// @name google-drive-download-link
-// @description Google Drive: add dowload link
-// @namespace jwilk@jwilk.net
-// @include https://drive.google.com/*
-// @grant none
-// ==/UserScript==
-
 let match = document.location.pathname.match(/^\/file\/d\/([\w-]+)\/view$/);
 if (match !== null) {
     let id = match[1];
