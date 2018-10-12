@@ -1,6 +1,6 @@
 let lazy_images = document.querySelectorAll('img.lazy-img__image');
 for (let img of lazy_images) {
-    img.src = img.getAttribute('data-native-src');
+    img.src = img.dataset.nativeSrc;
     img.classList.add('loaded');
 }
 
