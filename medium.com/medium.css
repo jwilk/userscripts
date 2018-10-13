@@ -1,0 +1,29 @@
+@-moz-document
+    domain(blog.mollie.com),
+    domain(blog.okmeter.io),
+    domain(blog.usejournal.com),
+    domain(citizen428.net),
+    domain(engblog.nextdoor.com),
+    domain(hackernoon.com),
+    domain(headmelted.com),
+    domain(lab.wallarm.com),
+    domain(medium.freecodecamp.org),
+    domain(mrooding.me),
+    domain(signalvnoise.com),
+    domain(tech.instacart.com),
+    domain(thebolditalic.com),
+    domain(uxdesign.cc),
+    domain(medium.com)
+{
+
+    .u-fixed {
+        position: absolute !important;
+    }
+
+    .js-stickyFooter {
+        display: none !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
