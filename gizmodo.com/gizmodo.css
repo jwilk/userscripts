@@ -1,0 +1,9 @@
+@-moz-document domain(gizmodo.com) {
+
+    #sharingfooter {
+        position: relative !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
