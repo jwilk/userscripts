@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'octicons';
+    src: local('Octicons');
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: local('FontAwesome');
+}
+
+
+/* vim:set ts=4 sts=4 sw=4 et: */
