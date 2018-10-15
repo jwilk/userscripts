@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Copyright © 2018 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
+if [ $# -ne 1 ] || [ "${1#-}" != "$1" ] 
+then
+    printf 'Usage: %s DOMAIN\n' "$0" >&2
+    exit 1
+fi
+
+dom="$1"
+mkdir -p "$dom"
+printf > "$dom/${dom%.*}.css" '@-moz-document domain(%s) {
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */\n' "$dom" 
+
+# vim:ts=4 sts=4 sw=4 et
