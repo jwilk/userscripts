@@ -1,0 +1,13 @@
+@-moz-document domain(tvn24.pl) {
+
+    .headerInfoMessage, .noscript-message {
+        display: none !important;
+    }
+
+    .headerTop {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
