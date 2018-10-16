@@ -1,0 +1,9 @@
+@-moz-document domain(theregister.co.uk) {
+
+    #RegCCO {
+        display: none !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
