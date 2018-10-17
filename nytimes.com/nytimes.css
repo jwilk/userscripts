@@ -1,0 +1,9 @@
+@-moz-document domain(nytimes.com) {
+
+    header img {
+        opacity: 1 !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
