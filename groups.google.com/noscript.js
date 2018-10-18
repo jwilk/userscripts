@@ -1,13 +1,14 @@
 let noscript = document.querySelector('noscript');
 let loc = window.location;
-if (noscript && loc.pathname == '/forum/') {
+let path_re = new RegExp('^/forum/(m/)?$');
+if (noscript && loc.pathname.match(path_re)) {
     let match = loc.hash.match(/^#!(.+)/);
     if (match) {
         console.log(noscript);
         console.log(match);
         let elt = document.createElement('a');
         elt.text = 'plain HTML version';
-        elt.href = 'm/?_escaped_fragment_=' + encodeURIComponent(match[1]);
+        elt.href = '/forum/?_escaped_fragment_=' + encodeURIComponent(match[1]);
         document.body.appendChild(elt);
     }
 }
