@@ -1,0 +1,17 @@
+@-moz-document domain(gitlab.com) {
+
+    header.navbar {
+        position: static !important;
+    }
+
+}
+
+@-moz-document domain(docs.gitlab.com) {
+
+    .header {
+        position: static !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
