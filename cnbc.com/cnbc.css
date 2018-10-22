@@ -1,7 +1,7 @@
 @-moz-document domain(cnbc.com) {
 
     #GlobalNavigation {
-        position: absolute !important;
+        position: static !important;
     }
 
 }
