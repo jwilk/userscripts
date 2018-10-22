@@ -10,8 +10,10 @@ then
 fi
 
 dom="$1"
+slug=$(printf '%s\n' "${dom%.*}" | tr '.' '\n' | tac | tr '\n' '-')
+slug=${slug%-}
 mkdir -p "$dom"
-printf > "$dom/${dom%.*}.css" '@-moz-document domain(%s) {
+printf > "$dom/${slug}.css" '@-moz-document domain(%s) {
 
 }
 
