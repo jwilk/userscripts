@@ -1,7 +1,7 @@
 let lazy_images = document.querySelectorAll('img.progressiveMedia-image');
 for (let img of lazy_images) {
     let wd = img.parentElement.offsetWidth;
-    img.src = img.dataset.src.replace(/\/max\/\d+/, "/max/" + wd);
+    img.src = img.dataset.src;
     img.className = 'progressiveMedia-noscript';
 }
 
