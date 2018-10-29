@@ -1,6 +1,6 @@
 @-moz-document domain(nautil.us) {
 
-    header {
+    .main-header {
         position: absolute !important;
     }
 
