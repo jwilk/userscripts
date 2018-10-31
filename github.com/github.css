@@ -16,6 +16,10 @@
         color: #586069 !important;
     }
 
+    button.js-dismiss {
+        display: initial !important;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
