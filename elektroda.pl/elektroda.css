@@ -1,0 +1,13 @@
+@-moz-document domain(elektroda.pl) {
+
+    .topbar-wrap {
+        position: absolute !important;
+    }
+
+    .cookie-info {
+        display: none !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
