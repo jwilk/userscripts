@@ -1,0 +1,13 @@
+@-moz-document domain(dev.to) {
+
+    .top-bar {
+        position: absolute !important;
+    }
+
+    .container .article-actions {
+        position: static !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
