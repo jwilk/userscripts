@@ -1,0 +1,9 @@
+@-moz-document domain(wikia.com) {
+
+    .wds-global-navigation {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
