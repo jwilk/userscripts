@@ -1,0 +1,20 @@
+@-moz-document domain(01.org) {
+
+    body {
+        display: initial !important;
+    }
+
+    .section-projects header {
+        position: absolute !important;
+    }
+
+    #project-header {
+        position: static !important;
+    }
+
+    .region-feedback {
+        display: none !important;
+    }
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
