@@ -12,8 +12,8 @@
         display: none !important;
     }
 
-    a[href^="/join?"]:not(.btn) {
-        color: #586069 !important;
+    a[data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up"] {
+        display: none !important;
     }
 
     button.js-dismiss {
