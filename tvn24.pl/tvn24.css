@@ -10,4 +10,12 @@
 
 }
 
+@-moz-document domain(tvn24bis.pl) {
+
+    .header-network {
+        position: absolute !important;
+    }
+
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
