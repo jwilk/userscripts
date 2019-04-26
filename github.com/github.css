@@ -4,7 +4,7 @@
         display: inherit !important;
     }
 
-    .signup-prompt-bg {
+    .signup-prompt, .signup-prompt-bg {
         display: none !important;
     }
 
