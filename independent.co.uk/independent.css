@@ -1,5 +1,9 @@
 @-moz-document domain(independent.co.uk) {
 
+body {
+    animation: none !important;
+}
+
 .masthead {
     position: absolute !important;
 }
