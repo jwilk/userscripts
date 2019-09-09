@@ -1,0 +1,9 @@
+@-moz-document domain(prawo.sejm.gov.pl) {
+
+    div.collapse {
+        display: block !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
