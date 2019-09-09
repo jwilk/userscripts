@@ -1,6 +1,7 @@
 @-moz-document domain(imdb.com) {
 
-    section#faq-no-spoilers div {
+    section#faq-no-spoilers div,
+    section#faq-spoilers div {
         display: block !important;
     }
 
