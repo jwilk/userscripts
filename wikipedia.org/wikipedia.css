@@ -4,6 +4,14 @@
         display: inline;
     }
 
+    #mw-previewheader + p {
+        color: black !important;
+    }
+
+    #mw-previewheader + p strong {
+        font-weight: normal;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
