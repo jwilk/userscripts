@@ -8,6 +8,10 @@
         position: absolute !important;
     }
 
+    header.header, footer.footer {
+        position: relative !important;
+    }
+
     .tvn24go-banner {
         display: none !important;
     }
