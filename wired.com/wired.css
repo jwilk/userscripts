@@ -1,6 +1,6 @@
 @-moz-document domain(wired.com) {
 
-    .header {
+    .persistent-top {
         position: absolute !important;
     }
 
