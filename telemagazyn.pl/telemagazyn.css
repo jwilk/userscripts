@@ -1,0 +1,13 @@
+@-moz-document domain(telemagazyn.pl) {
+
+    .progFiltry .progDni > ul {
+        display: none !important;
+    }
+
+    .progFiltry:hover .progDni > ul {
+        display: block !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
