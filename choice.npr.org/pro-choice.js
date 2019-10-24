@@ -1,4 +1,4 @@
-let id = window.location.search.match('[0-9]{9,}');
+let id = window.location.search.match('[0-9]{8,}');
 let a = document.querySelector('#textLink')
 a.href = `https://text.npr.org/s.php?sId=${id}`;
 
