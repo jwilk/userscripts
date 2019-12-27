@@ -1,0 +1,9 @@
+@-moz-document domain(openssl.org) {
+
+    div.faq ul > li > p {
+        display: block !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
