@@ -1,0 +1,9 @@
+@-moz-document domain(media.ccc.de) {
+
+    div#webm {
+        display: block !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
