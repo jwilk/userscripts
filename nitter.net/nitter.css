@@ -1,4 +1,12 @@
-@-moz-document domain(nitter.net) {
+@-moz-document
+    domain(nitter.snopyta.org),
+    domain(nitter.42l.fr),
+    domain(nitter.nixnet.services),
+    domain(nitter.13ad.de),
+    domain(tw.openalgeria.org),
+    domain(nitter.pussthecat.org),
+    domain(nitter.net)
+{
 
     nav {
         position: absolute !important;
