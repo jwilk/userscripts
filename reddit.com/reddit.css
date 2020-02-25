@@ -5,8 +5,12 @@
         display: none !important;
     }
 
-    .over18 div.expando {
+    div.expando {
         display: block !important;
+    }
+
+    div.expando span.error {
+        display: none;
     }
 
 }
