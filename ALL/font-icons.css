@@ -8,5 +8,9 @@
     src: local('FontAwesome');
 }
 
+@font-face {
+    font-family: 'ForkAwesome';
+    src: local('ForkAwesome');
+}
 
 /* vim:set ts=4 sts=4 sw=4 et: */
