@@ -1,4 +1,8 @@
-@-moz-document domain(prawo.sejm.gov.pl) {
+@-moz-document
+    domain(isap.sejm.gov.pl),
+    domain(isip.sejm.gov.pl),
+    domain(prawo.sejm.gov.pl)
+{
 
     div.collapse {
         display: block !important;
