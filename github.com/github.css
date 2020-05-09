@@ -12,7 +12,7 @@
         display: none !important;
     }
 
-    a[data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up"] {
+    a.HeaderMenu-link[href^="/join?"] {
         display: none !important;
     }
 
