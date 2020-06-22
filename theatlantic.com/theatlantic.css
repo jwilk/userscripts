@@ -1,0 +1,13 @@
+@-moz-document domain(theatlantic.com) {
+
+    xnav {
+        position: static !important;
+    }
+
+    .c-nav__container::before {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
