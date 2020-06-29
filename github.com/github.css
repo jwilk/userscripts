@@ -20,6 +20,10 @@
         display: initial !important;
     }
 
+    .position-sticky {
+        position: static !important;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
