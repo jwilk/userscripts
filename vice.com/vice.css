@@ -1,15 +1,7 @@
 @-moz-document domain(vice.com) {
 
-    div.site-header {
-        position: absolute !important;
-    }
-
-}
-
-@-moz-document domain(news.vice.com) {
-
-    header {
-        position: absolute !important;
+    .nav-bar {
+        position: static !important;
     }
 
 }
