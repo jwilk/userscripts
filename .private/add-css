@@ -13,6 +13,7 @@ dom="$1"
 slug=$(printf '%s\n' "${dom%.*}" | tr '.' '\n' | tac | tr '\n' '-')
 slug=${slug%-}
 mkdir -p "$dom"
+set -C
 printf > "$dom/${slug}.css" '@-moz-document domain(%s) {
 
 }
