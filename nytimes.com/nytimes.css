@@ -1,5 +1,13 @@
 @-moz-document domain(nytimes.com) {
 
+    .NYTAppHideMasthead {
+        position: absolute !important;
+    }
+
+    #NYT_TOP_BANNER_REGION {
+        position: static !important;
+    }
+
     header img {
         opacity: 1 !important;
     }
