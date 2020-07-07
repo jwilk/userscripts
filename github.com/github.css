@@ -24,6 +24,14 @@
         position: static !important;
     }
 
+    .email-hidden-toggle {
+        display: none !important;
+    }
+
+    .email-hidden-reply {
+        display: initial !important;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
