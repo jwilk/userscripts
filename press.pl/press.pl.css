@@ -1,0 +1,9 @@
+@-moz-document domain(press.pl) {
+
+    .main_content {
+        opacity: initial !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
