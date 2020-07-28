@@ -1,0 +1,9 @@
+@-moz-document domain(support.google.com) {
+
+    header#gb {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
