@@ -1,6 +1,6 @@
 @-moz-document domain(newyorker.com) {
 
-    div[class^=SiteHeader__siteHeader__] {
+    div.persistent-top {
         position: absolute !important;
     }
 
