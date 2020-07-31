@@ -1,0 +1,9 @@
+@-moz-document domain(interia.pl) {
+
+    header.common-header, header#header, .portal-bar {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
