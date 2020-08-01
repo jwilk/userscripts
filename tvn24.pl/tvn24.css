@@ -16,6 +16,10 @@
         display: none !important;
     }
 
+    .twitter-tweet {
+        display: unset !important;
+    }
+
 }
 
 @-moz-document domain(tvn24bis.pl) {
