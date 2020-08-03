@@ -7,5 +7,10 @@ for (let img of imgs) {
     picture.appendChild(source);
     picture.appendChild(img);
 }
+let elts = document.querySelectorAll('source[data-srcset]');
+for (let elt of elts) {
+    console.log(elt);
+    elt.srcset = elt.dataset.srcset;
+};
 
 // vim:ts=4 sts=4 sw=4 et
