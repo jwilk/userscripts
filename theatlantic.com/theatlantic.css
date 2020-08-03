@@ -1,6 +1,6 @@
 @-moz-document domain(theatlantic.com) {
 
-    xnav {
+    .c-nav {
         position: static !important;
     }
 
