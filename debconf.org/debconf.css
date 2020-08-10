@@ -1,4 +1,8 @@
-@-moz-document domain(debconf18.debconf.org), domain(debconf19.debconf.org) {
+@-moz-document
+    domain(debconf18.debconf.org),
+    domain(debconf19.debconf.org),
+    domain(debconf20.debconf.org)
+{
 
     .dropdown:hover ul.dropdown-menu {
         display: block !important;
