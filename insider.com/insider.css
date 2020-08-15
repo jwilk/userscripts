@@ -1,0 +1,9 @@
+@-moz-document domain(insider.com) {
+
+    .l-masthead {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
