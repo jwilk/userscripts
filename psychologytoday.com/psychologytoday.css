@@ -1,0 +1,13 @@
+@-moz-document domain(psychologytoday.com) {
+
+    body {
+        margin-top: 0 !important;
+    }
+
+    .navbar-default-public {
+        position: static !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
