@@ -13,7 +13,7 @@
         margin-top: 0;
     }
 
-    .s-hero, .old-hero {
+    .s-hero, .old-hero, .js-dismissable-hero {
         display: none !important;
     }
 
