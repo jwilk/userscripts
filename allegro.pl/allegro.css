@@ -1,0 +1,13 @@
+@-moz-document domain(allegro.pl) {
+
+    div[data-box-name="allegro.gdpr.consents.sheet"] {
+        display: none !important;
+    }
+
+    body.meqh_en {
+        overflow: revert !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
