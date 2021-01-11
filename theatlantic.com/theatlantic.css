@@ -1,11 +1,7 @@
 @-moz-document domain(theatlantic.com) {
 
-    .c-nav {
+    nav {
         position: static !important;
-    }
-
-    .c-nav__container::before {
-        position: absolute !important;
     }
 
 }
