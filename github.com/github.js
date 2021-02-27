@@ -1,7 +1,7 @@
-let btn = document.querySelector('.issues-listing .gh-header-show .js-details-target');
+let btn = document.querySelector('#show_issue .gh-header-show button[aria-label="Edit Issue title"]');
 if (btn !== null) {
     btn.addEventListener('click', function() {
-        let elt = document.querySelector('.issues-listing .gh-header-edit');
+        let elt = document.querySelector('#show_issue .gh-header-edit');
         if (elt !== null)
             elt.style['display'] = 'block';
     });
