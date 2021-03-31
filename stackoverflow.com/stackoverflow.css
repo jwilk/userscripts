@@ -17,7 +17,7 @@
         display: none !important;
     }
 
-    #js-gdpr-consent-banner {
+    .js-consent-banner {
         display: none !important;
     }
 
