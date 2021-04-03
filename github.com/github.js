@@ -6,5 +6,11 @@ if (btn !== null) {
             elt.style['display'] = 'block';
     });
 }
+btn = document.querySelector('button.js-profile-editable-edit-button');
+if (btn !== null) {
+    btn.addEventListener('click', function() {
+        document.location = '/settings/profile';
+    });
+}
 
 // vim:ts=4 sts=4 sw=4 et
