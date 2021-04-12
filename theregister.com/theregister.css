@@ -1,6 +1,6 @@
 @-moz-document domain(theregister.com) {
 
-    #RegCCO {
+    div.RegCTBWF_wrapper {
         display: none !important;
     }
 
