@@ -1,5 +1,9 @@
 @-moz-document domain(theregister.com) {
 
+    #masthead {
+        position: static !important;
+    }
+
     div.RegCTBWF_wrapper {
         display: none !important;
     }
