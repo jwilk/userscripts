@@ -1,0 +1,11 @@
+@-moz-document domain(pypi.org) {
+
+    .stick-to-top {
+
+        position: static !important;
+
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
