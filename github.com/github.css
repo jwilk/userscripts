@@ -12,7 +12,7 @@
         display: none !important;
     }
 
-    a.HeaderMenu-link[href^="/join?"] {
+    a.HeaderMenu-link[href^="/signup?"] {
         display: none !important;
     }
 
