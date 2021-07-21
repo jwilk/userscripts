@@ -32,6 +32,10 @@
         display: initial !important;
     }
 
+    .Details:not(.Details--on) .Details-content--hidden.dashboard-rollup-items {
+        display: initial !important;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
