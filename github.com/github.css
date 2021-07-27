@@ -36,6 +36,10 @@
         display: initial !important;
     }
 
+    .page-responsive .HeaderMenu--logged-out .header-search-input {
+        color: revert !important;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
