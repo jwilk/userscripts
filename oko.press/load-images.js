@@ -9,7 +9,6 @@ for (let img of imgs) {
 }
 let elts = document.querySelectorAll('source[data-srcset]');
 for (let elt of elts) {
-    console.log(elt);
     elt.srcset = elt.dataset.srcset;
 };
 

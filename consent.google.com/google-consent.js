@@ -4,7 +4,6 @@ for (let elt of elts) {
 }
 let elt = document.querySelector('input[type="submit"][value="I agree"]');
 if (elt !== null) {
-    console.log(elt);
     elt.disabled = true;
 }
 
