@@ -36,6 +36,11 @@
         display: initial !important;
     }
 
+    tool-tip[hidden][for^="reactions-"] {
+        display: initial !important;
+        font-size: smaller;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
