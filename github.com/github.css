@@ -20,7 +20,7 @@
         display: initial !important;
     }
 
-    .position-sticky {
+    .js-position-sticky, .position-sticky {
         position: static !important;
     }
 
