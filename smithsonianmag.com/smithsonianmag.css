@@ -1,0 +1,9 @@
+@-moz-document domain(smithsonianmag.com) {
+
+    header.main {
+        position: absolute !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
