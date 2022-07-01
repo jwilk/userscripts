@@ -5,7 +5,7 @@ for (let elt of elts) {
 elts = document.querySelectorAll('img.lazyload');
 for (let elt of elts) {
     elt.src = elt.dataset.src;
-    elt.style.display = 'initial';
+    elt.style.display = 'revert';
 }
 
 // vim:ts=4 sts=4 sw=4 et

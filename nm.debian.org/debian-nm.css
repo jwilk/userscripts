@@ -2,7 +2,7 @@
 
     div.personbio .expanded {
         display: block !important;
-        cursor: initial !important;
+        cursor: revert !important;
     }
 
     div.personbio .collapsed {

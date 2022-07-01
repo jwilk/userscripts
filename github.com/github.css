@@ -17,7 +17,7 @@
     }
 
     button.js-dismiss {
-        display: initial !important;
+        display: revert !important;
     }
 
     .js-position-sticky, .position-sticky {
@@ -29,15 +29,15 @@
     }
 
     .email-hidden-reply {
-        display: initial !important;
+        display: revert !important;
     }
 
     .Details:not(.Details--on) .Details-content--hidden.dashboard-rollup-items {
-        display: initial !important;
+        display: revert !important;
     }
 
     tool-tip[hidden][for^="reactions-"] {
-        display: initial !important;
+        display: revert !important;
         font-size: smaller;
     }
 

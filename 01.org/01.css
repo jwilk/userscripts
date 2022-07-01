@@ -1,7 +1,7 @@
 @-moz-document domain(01.org) {
 
     body {
-        display: initial !important;
+        display: revert !important;
     }
 
     .section-projects header {
