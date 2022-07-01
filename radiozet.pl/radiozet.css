@@ -1,6 +1,6 @@
 @-moz-document domain(radiozet.pl) {
 
-    header#header__main, .radiozet-header {
+    header#header__main, .radiozet-header, .back-to-home {
         position: static !important;
     }
 
