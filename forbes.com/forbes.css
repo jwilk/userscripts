@@ -1,6 +1,6 @@
 @-moz-document domain(forbes.com) {
 
-    navbar {
+    header {
         position: absolute !important;
     }
 
