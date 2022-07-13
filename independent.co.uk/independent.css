@@ -4,7 +4,7 @@
         animation: none !important;
     }
 
-    .masthead {
+    header#header {
         position: absolute !important;
     }
 
