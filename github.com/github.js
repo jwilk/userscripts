@@ -12,5 +12,12 @@ if (btn !== null) {
         document.location = '/settings/profile';
     });
 }
+let anchors = document.querySelectorAll('.anchor[id^="user-content-"]');
+for (let anchor of anchors) {
+    let id = anchor.id.replace(/^user-content-/, '')
+    if (document.querySelector(`#${id}`) === null) {
+        anchor.id = id;
+    }
+}
 
 // vim:ts=4 sts=4 sw=4 et
