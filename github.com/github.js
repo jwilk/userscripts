@@ -15,7 +15,7 @@ if (btn !== null) {
 let anchors = document.querySelectorAll('.anchor[id^="user-content-"]');
 for (let anchor of anchors) {
     let id = anchor.id.replace(/^user-content-/, '')
-    if (document.querySelector(`#${id}`) === null) {
+    if (document.getElementById(id) === null) {
         anchor.id = id;
     }
 }
