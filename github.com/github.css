@@ -36,9 +36,25 @@
         display: revert !important;
     }
 
+
+    .js-comment-reactions-options {
+        display: block !important;
+    }
+
     tool-tip[hidden][for^="reactions-"] {
-        display: revert !important;
+        display: inline !important;
+        position: relative !important;
         font-size: smaller;
+    }
+
+    tool-tip[hidden][for^="reactions-"]::after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+    button[id^="reactions-"] {
+        display: inline !important;
     }
 
 }
