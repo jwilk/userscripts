@@ -19,5 +19,9 @@ for (let anchor of anchors) {
         anchor.id = id;
     }
 }
+let elts = document.querySelectorAll('*[aria-expanded="false"]');
+for (let elt of elts) {
+    elt.setAttribute('aria-expanded', 'true');
+}
 
 // vim:ts=4 sts=4 sw=4 et
