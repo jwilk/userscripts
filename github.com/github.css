@@ -40,13 +40,13 @@
         display: block !important;
     }
 
-    tool-tip[hidden][for^="reactions-"] {
+    tool-tip[for^="reactions-"] {
         display: inline !important;
         position: relative !important;
         font-size: smaller;
     }
 
-    tool-tip[hidden][for^="reactions-"]::after {
+    tool-tip[for^="reactions-"]::after {
         content: " ";
         display: block;
         clear: both;
