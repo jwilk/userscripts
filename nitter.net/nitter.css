@@ -96,6 +96,11 @@
         font-family: 'FontAwesome' !important;
     }
 
+    .icon-pin::before {
+        content: '\1F4CC';
+        font-family: revert !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
