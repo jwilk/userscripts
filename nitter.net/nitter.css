@@ -96,6 +96,11 @@
         font-family: 'FontAwesome' !important;
     }
 
+    .icon-ok::before {
+        content: '\F00C';
+        font-family: 'FontAwesome' !important;
+    }
+
     .icon-pin::before {
         content: '\1F4CC';
         font-family: revert !important;
