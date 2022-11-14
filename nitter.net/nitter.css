@@ -63,42 +63,42 @@
 
     .icon-search::before {
         content: '\F002' !important;
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-rss-feed::before {
         content: '\F09E' !important;
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-bird::before {
         content: '\F099' !important;
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-info::before {
         content: '\F129' !important;
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-cog::before {
         content: '\F013' !important;
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-comment::before {
         content: '\F075' !important;
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-retweet::before {
         content: '\F079';
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-ok::before {
         content: '\F00C';
-        font-family: 'FontAwesome' !important;
+        font-family: 'ForkAwesome' !important;
     }
 
     .icon-pin::before {
