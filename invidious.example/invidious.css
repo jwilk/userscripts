@@ -1,0 +1,72 @@
+@-moz-document
+    domain(inv.bp.projectsegfau.lt),
+    domain(inv.odyssey346.dev),
+    domain(inv.privacy.com.de),
+    domain(inv.riverside.rocks),
+    domain(inv.vern.cc),
+    domain(inv.vern.i2p),
+    domain(invidio.xamh.de),
+    domain(invidious.baczek.me),
+    domain(invidious.dhusch.de),
+    domain(invidious.esmailelbob.xyz),
+    domain(invidious.flokinet.to),
+    domain(invidious.kavin.rocks),
+    domain(invidious.namazso.eu),
+    domain(invidious.nerdvpn.de),
+    domain(invidious.projectsegfau.lt),
+    domain(invidious.rhyshl.live),
+    domain(invidious.sethforprivacy.com),
+    domain(invidious.slipfox.xyz),
+    domain(invidious.snopyta.org),
+    domain(invidious.tiekoetter.com),
+    domain(invidious.weblibre.org),
+    domain(vid.puffyan.us),
+    domain(y.com.sb),
+    domain(yewtu.be),
+    domain(youtube.076.ne.jp),
+    domain(yt.artemislena.eu)
+{
+
+    .ion-ios-moon::before {
+        content: '\F186' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-ios-cog::before {
+        content: '\F013' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-ios-eye::before {
+        content: '\F06E' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-ios-thumbs-up::before {
+        content: '\F164' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-logo-github::before {
+        content: '\F09B' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-ios-paper::before {
+        content: '\F016' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-logo-javascript::before {
+        content: '\F308' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-ios-wallet::before {
+        content: '\F0D6' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
