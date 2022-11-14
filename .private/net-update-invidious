@@ -1,0 +1,85 @@
+#!/usr/bin/env perl
+
+# Copyright © 2022 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
+no lib '.';  # CVE-2016-1238
+
+use autodie;
+use strict;
+use warnings;
+use v5.14;
+
+use English qw(-no_match_vars);
+use FindBin ();
+use HTTP::Tiny ();
+use JSON::PP ();
+
+sub urlget
+{
+    my ($url) = @_;
+    state $http = HTTP::Tiny->new;
+	my $response = $http->get($url);
+    if (not $response->{success}) {
+        if ($response->{status} == 599) {
+            die "<$url>: $response->{content}";
+        } else {
+            die "<$url>: $response->{status} $response->{reason}";
+        }
+    }
+    return $response->{content};
+}
+
+sub slurp
+{
+    my ($path) = @_;
+    local $RS = undef;
+    open my $fh, '<', $path;
+    $_ = <$fh>;
+    close $fh;
+    return $_;
+}
+
+chdir "$FindBin::Bin/..";
+
+my $data_url = 'https://api.invidious.io/instances.json';
+my $data = urlget($data_url);
+$data = JSON::PP::decode_json($data);
+my %hosts;
+for my $item (@{$data}) {
+    my $host = $item->[0];
+    $host !~ /[.]onion$/
+        or next;
+    if (defined $hosts{host}) {
+        die "instances.json: duplicate host $host"
+    };
+    $hosts{$host} = 1;
+}
+
+for my $path (glob '*') {
+    my $target = eval { readlink $path }
+        or next;
+    $target eq 'invidious.example'
+        or next;
+    unlink $path;
+}
+
+for my $host (keys %hosts) {
+    symlink 'invidious.example', $host;
+}
+
+my $css_path = 'invidious.example/invidious.css';
+my $css = slurp($css_path);
+my $css_domains = '';
+for my $host (sort keys %hosts) {
+    $css_domains .= "    domain($host),\n";
+}
+$css_domains =~ s/,\n\z/\n/
+    or die;
+$css =~ s/\A[@]-moz-document\n\K(?:    domain[(][^()]+[)],?\n)+/$css_domains/s;
+open my $fh, '>', $css_path;
+print {$fh} $css
+    or die $ERRNO;
+close $fh;
+
+# vim:ts=4 sts=4 sw=4 et
