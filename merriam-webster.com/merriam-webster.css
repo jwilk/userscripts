@@ -1,6 +1,6 @@
 @-moz-document domain(merriam-webster.com) {
 
-    header {
+    header.position-fixed {
         position: absolute !important;
     }
 
