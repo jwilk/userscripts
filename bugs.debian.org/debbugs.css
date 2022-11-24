@@ -1,0 +1,9 @@
+@-moz-document domain(bugs.debian.org) {
+
+    body, html, h1, h2, h3 {
+        background-color: #fff;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
