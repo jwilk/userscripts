@@ -1,4 +1,7 @@
-@-moz-document domain(wired.com) {
+@-moz-document
+    domain(wired.co.uk),
+    domain(wired.com)
+{
 
     .persistent-top {
         position: absolute !important;
