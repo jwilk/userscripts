@@ -1,6 +1,6 @@
 @-moz-document domain(apnews.com) {
 
-    .Header {
+    .Header, .Header .header-featured-wrapper, .header-background {
         position: absolute !important;
     }
 
