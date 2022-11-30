@@ -8,6 +8,10 @@
         border-bottom: dashed 1px #ccc;
     }
 
+    div.mainpage-panel {
+        background: #fff !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
