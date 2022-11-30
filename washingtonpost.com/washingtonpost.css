@@ -4,6 +4,10 @@
         position: absolute !important;
     }
 
+    figure > div {
+        filter: revert !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
