@@ -1,0 +1,19 @@
+@-moz-document domain(news.ycombinator.com) {
+
+    a div.votearrow {
+        display: none !important;
+    }
+    a[id^="up_"]::before {
+        display: block;
+        color: #999;
+        content: "\2BC5";
+    }
+    a[id^="down_"]::before {
+        display: block;
+        color: #999;
+        content: "\2BC6";
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
