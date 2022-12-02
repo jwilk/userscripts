@@ -4,6 +4,10 @@
         display: revert !important;
     }
 
+    section {
+        opacity: 1 !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
