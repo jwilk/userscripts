@@ -1,6 +1,6 @@
 @-moz-document domain(mentalfloss.com) {
 
-    .main-navbar {
+    #mm-root > header {
         position: absolute !important;
     }
 
