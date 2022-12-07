@@ -57,6 +57,7 @@ while ($wiki =~ m{^[|] \[([\w.]+)\][(]([\w:./]+)[)]}mg) {
     };
     $hosts{$host} = 1;
 }
+$hosts{'nitter.snopyta.org'} = 1;
 
 for my $path (glob '*') {
     my $target = eval { readlink $path }
