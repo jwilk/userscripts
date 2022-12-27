@@ -1,5 +1,9 @@
 @-moz-document domain(nm.debian.org) {
 
+    div.personbio {
+        cursor: revert !important;
+    }
+
     div.personbio .expanded {
         display: block !important;
         cursor: revert !important;
