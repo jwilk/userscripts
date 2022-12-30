@@ -12,12 +12,8 @@
     domain(medium.com)
 {
 
-    nav.s {
+    div.m {
         position: absolute !important;
-    }
-
-    .js-stickyFooter {
-        display: none !important;
     }
 
 }
