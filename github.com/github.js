@@ -23,5 +23,9 @@ let elts = document.querySelectorAll('*[aria-expanded="false"]');
 for (let elt of elts) {
     elt.setAttribute('aria-expanded', 'true');
 }
+elts = document.querySelectorAll('relative-time');
+for (let elt of elts) {
+    elt.setAttribute('title', elt.getAttribute('datetime'));
+}
 
 // vim:ts=4 sts=4 sw=4 et
