@@ -56,6 +56,10 @@
         display: inline !important;
     }
 
+    .file-navigation ~ div relative-time {
+        font-size: x-small;
+    }
+
 }
 
 @-moz-document domain(blog.github.com) {
