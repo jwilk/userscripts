@@ -1,5 +1,13 @@
 @-moz-document domain(bugzilla.mozilla.org) {
 
+    body {
+        scrollbar-color: unset !important;
+    }
+
+    #header {
+        position: static !important;
+    }
+
     #header .link-browse .icon::before {
         content: '\F03A';
         font-family: 'ForkAwesome' !important;
