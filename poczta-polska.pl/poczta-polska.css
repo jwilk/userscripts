@@ -1,5 +1,9 @@
 @-moz-document domain(poczta-polska.pl) {
 
+    header.topper {
+        positioN: absolute !important;
+    }
+
     ul.children {
         display: block !important;
     }
