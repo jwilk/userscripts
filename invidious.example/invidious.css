@@ -67,6 +67,26 @@
         font-family: 'ForkAwesome' !important;
     }
 
+    .ion-logo-youtube::before {
+        content: '\F167' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-md-checkmark-circle::before {
+        content: '\F00C' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-md-headset::before {
+        content: '\F025' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
+    .ion-md-jet::before {
+        content: '\F072' !important;
+        font-family: 'ForkAwesome' !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
