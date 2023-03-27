@@ -1,7 +1,7 @@
 @-moz-document domain(abcnews.go.com) {
 
-    #header-wrapper {
-        position: absolute !important;
+    .navigation {
+        position: relative !important;
     }
 
 }
