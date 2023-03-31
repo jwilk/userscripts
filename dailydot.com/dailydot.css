@@ -1,0 +1,9 @@
+@-moz-document domain(dailydot.com) {
+
+    #main-header {
+        position: absolute;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
