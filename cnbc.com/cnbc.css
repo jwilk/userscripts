@@ -1,6 +1,6 @@
 @-moz-document domain(cnbc.com) {
 
-    #MakeItGlobalNavigation {
+    header#GlobalNavigation {
         position: absolute !important;
     }
 
