@@ -50,6 +50,8 @@ for my $item (@{$data}) {
     my $host = $item->[0];
     $host !~ /[.]onion$/
         or next;
+    $host =~ /\A[\w.]+\z/ or
+        die "instances.json: invalid host $host";
     if (defined $hosts{host}) {
         die "instances.json: duplicate host $host"
     };
