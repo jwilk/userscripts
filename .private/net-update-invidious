@@ -48,7 +48,7 @@ $data = JSON::PP::decode_json($data);
 my %hosts;
 for my $item (@{$data}) {
     my $host = $item->[0];
-    $host !~ /[.]onion$/
+    $host !~ /[.](?:onion|i2p)$/
         or next;
     $host =~ /\A[\w.]+\z/ or
         die "instances.json: invalid host $host";
