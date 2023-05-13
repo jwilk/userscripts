@@ -1,0 +1,9 @@
+@-moz-document domain(practicaltypography.com) {
+
+    body.hidden {
+        opacity: revert;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
