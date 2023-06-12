@@ -1,6 +1,6 @@
 @-moz-document domain(washingtonpost.com) {
 
-    nav.header-nav {
+    nav {
         position: absolute !important;
     }
 
