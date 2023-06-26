@@ -1,5 +1,9 @@
 @-moz-document domain(i.redd.it) {
 
+    reddit-header-small {
+        position: absolute !important;
+    }
+
     faceplate-tracker, zoomable-img {
         visibility: visible !important;
     }
