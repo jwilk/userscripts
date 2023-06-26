@@ -8,6 +8,11 @@
         visibility: visible !important;
     }
 
+    main.flex {
+        display: revert !important;
+        height: revert !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
