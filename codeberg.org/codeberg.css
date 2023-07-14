@@ -1,0 +1,9 @@
+@-moz-document domain(codeberg.org) {
+
+    .ui.checkbox input:checked ~ label::after {
+        content: "\2717" !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
