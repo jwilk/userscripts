@@ -12,6 +12,10 @@
         background: #fff !important;
     }
 
+    span.acct-egz, span.acct-sign, span.acct-date {
+        color: revert !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
