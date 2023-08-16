@@ -1,11 +1,5 @@
 @-moz-document domain(imdb.com) {
 
-    section#faq-no-spoilers div,
-    section#faq-spoilers div {
-        display: block !important;
-        max-height: none !important;
-    }
-
     .ipc-accordion__item__content {
 		height: revert !important;
 		visibility: revert !important;
