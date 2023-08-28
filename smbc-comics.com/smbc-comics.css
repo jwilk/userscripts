@@ -1,0 +1,14 @@
+@-moz-document domain(smbc-comics.com) {
+
+    div#navbottom {
+        height: revert !important;
+    }
+
+    div#aftercomic {
+        display: revert !important;
+        position: revert !important;
+    }
+
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
