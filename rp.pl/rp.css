@@ -1,6 +1,6 @@
 @-moz-document domain(rp.pl) {
 
-    .site-header__wrapper {
+    .headerWrapper {
         position: relative !important;
     }
 
