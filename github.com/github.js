@@ -12,7 +12,7 @@ if (btn !== null) {
         document.location = '/settings/profile';
     });
 }
-let anchors = document.querySelectorAll('.anchor[id^="user-content-"]');
+let anchors = document.querySelectorAll('*[id^="user-content-"]');
 for (let anchor of anchors) {
     let id = anchor.id.replace(/^user-content-/, '')
     if (document.getElementById(id) === null) {
