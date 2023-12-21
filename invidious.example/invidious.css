@@ -1,19 +1,16 @@
 @-moz-document
     domain(anontube.lvkaszus.pl),
-    domain(inv.citw.lgbt),
     domain(inv.in.projectsegfau.lt),
+    domain(inv.n8pjl.ca),
     domain(inv.tux.pizza),
     domain(inv.us.projectsegfau.lt),
     domain(inv.zzls.xyz),
-    domain(invidious.asir.dev),
+    domain(invidious.12a.app),
     domain(invidious.drgns.space),
     domain(invidious.einfachzocken.eu),
     domain(invidious.fdn.fr),
-    domain(invidious.flokinet.to),
-    domain(invidious.io.lol),
     domain(invidious.lunar.icu),
     domain(invidious.nerdvpn.de),
-    domain(invidious.no-logs.com),
     domain(invidious.perennialte.ch),
     domain(invidious.privacydev.net),
     domain(invidious.private.coffee),
@@ -30,8 +27,7 @@
     domain(yewtu.be),
     domain(yt.artemislena.eu),
     domain(yt.cdaut.de),
-    domain(yt.drgnz.club),
-    domain(yt.oelrichsgarcia.de)
+    domain(yt.drgnz.club)
 {
 
     .ion-ios-moon::before {
