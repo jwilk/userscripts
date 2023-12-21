@@ -1,7 +1,7 @@
 let elts = document.querySelectorAll('a[data-001]');
 for (let elt of elts) {
     if (elt.href === '') {
-        elt.href = '/sowacgi.php?KatID=0&typ=record&001=' + elt.dataset['001']
+        elt.href = '/index.php?KatID=0&typ=record&001=' + elt.dataset['001']
     }
 }
 elts = document.querySelectorAll('div[onclick]');
@@ -23,7 +23,7 @@ for (let elt of elts) {
     let match = url.match("^javascript:Konto[(]0\\s*,'(\\w+)',\\s*'',\\s*''[)];$");
     if (match !== null) {
         let id = match[1];
-        elt.href = `/sowacgi.php?KatID=0&typ=acc&id=${id}`;
+        elt.href = `/index.php?KatID=0&typ=acc&id=${id}`;
     }
 }
 
