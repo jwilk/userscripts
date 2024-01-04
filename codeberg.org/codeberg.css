@@ -8,6 +8,15 @@
         display: revert !important;
     }
 
+    .language-stats-details.gt-hidden {
+        display: flex !important;
+        font-size: 8pt !important;
+    }
+    .language-stats-details.gt-hidden .color-icon {
+        width: 8pt !important;
+        height: 8pt !important;
+    }
+
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
