@@ -77,7 +77,7 @@ my $css_domains = '';
 for my $host (sort keys %hosts) {
     $css_domains .= "    domain($host),\n";
 }
-$css =~ s/\A[@]-moz-document\n\K.*\n(?=\Q    domain(nitter.net)\E\n)/$css_domains/s
+$css =~ s/^[@]-moz-document\n\K.*\n(?=\Q    domain(nitter.net)\E\n)/$css_domains/ms
     or die;
 open my $fh, '>', $css_path;
 print {$fh} $css
