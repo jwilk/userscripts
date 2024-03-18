@@ -1,9 +1,9 @@
 @-moz-document domain(imdb.com) {
 
     .ipc-accordion__item__content {
-		height: revert !important;
-		visibility: revert !important;
-	}
+        height: revert !important;
+        visibility: revert !important;
+    }
 
 }
 
