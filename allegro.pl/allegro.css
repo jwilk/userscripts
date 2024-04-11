@@ -1,4 +1,7 @@
-@-moz-document domain(allegro.pl) {
+@-moz-document
+    domain(allegro.com),
+    domain(allegro.pl)
+{
 
     div[data-box-name="allegro.gdpr.consents.sheet"] {
         display: none !important;
