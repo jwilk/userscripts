@@ -1,12 +1,5 @@
-@-moz-document
-    domain(wired.co.uk),
-    domain(wired.com)
-{
-
-    .persistent-top {
-        position: absolute !important;
-    }
-
+.persistent-top {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

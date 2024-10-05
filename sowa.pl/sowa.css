@@ -1,21 +1,17 @@
-@-moz-document domain(sowa.pl) {
+span.submit-arrow::before {
+    content: "→";
+}
 
-    span.submit-arrow::before {
-        content: "→";
-    }
+div.record-av-details-row {
+    border-bottom: dashed 1px #ccc;
+}
 
-    div.record-av-details-row {
-        border-bottom: dashed 1px #ccc;
-    }
+div.mainpage-panel {
+    background: #fff !important;
+}
 
-    div.mainpage-panel {
-        background: #fff !important;
-    }
-
-    span.acct-egz, span.acct-sign, span.acct-date {
-        color: revert !important;
-    }
-
+span.acct-egz, span.acct-sign, span.acct-date {
+    color: revert !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

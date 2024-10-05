@@ -1,9 +1,5 @@
-@-moz-document domain(developer.mozilla.org) {
-
-    .main-document-header-container {
-        positioN: static !important;
-    }
-
+.main-document-header-container {
+    positioN: static !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

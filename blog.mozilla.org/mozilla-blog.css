@@ -1,9 +1,5 @@
-@-moz-document domain(blog.mozilla.org) {
-
-    #nav-global {
-        position: absolute !important;
-    }
-
+#nav-global {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

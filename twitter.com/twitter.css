@@ -1,25 +1,21 @@
-@-moz-document domain(twitter.com) {
+.NoScriptForm {
+    display: none !important;
+}
 
-    .NoScriptForm {
-        display: none !important;
-    }
+.topbar {
+    position: absolute !important;
+}
 
-    .topbar {
-        position: absolute !important;
-    }
+.SearchNavigation {
+    position: static !important;
+}
 
-    .SearchNavigation {
-        position: static !important;
-    }
+.topbar-spacer {
+    display: none !important;
+}
 
-    .topbar-spacer {
-        display: none !important;
-    }
-
-    .eu-cookie-notice {
-        display: none !important;
-    }
-
+.eu-cookie-notice {
+    display: none !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

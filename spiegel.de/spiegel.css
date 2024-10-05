@@ -1,13 +1,9 @@
-@-moz-document domain(spiegel.de) {
+header.sticky {
+    position: absolute !important;
+}
 
-    header.sticky {
-        position: absolute !important;
-    }
-
-    div.sticky {
-        position: static !important;
-    }
-
+div.sticky {
+    position: static !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

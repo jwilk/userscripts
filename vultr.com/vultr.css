@@ -1,9 +1,5 @@
-@-moz-document domain(vultr.com) {
-
-    .collapse {
-        display: unset !important;
-    }
-
+.collapse {
+    display: unset !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

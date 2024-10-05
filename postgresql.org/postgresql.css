@@ -1,9 +1,5 @@
-@-moz-document domain(postgresql.org) {
-
-    .fixed-top {
-        position: absolute !important;
-    }
-
+.fixed-top {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

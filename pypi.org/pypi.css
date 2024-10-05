@@ -1,10 +1,6 @@
-@-moz-document domain(pypi.org) {
+.stick-to-top {
 
-    .stick-to-top {
-
-        position: static !important;
-
-    }
+    position: static !important;
 
 }
 

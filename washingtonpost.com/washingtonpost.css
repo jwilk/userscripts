@@ -1,13 +1,9 @@
-@-moz-document domain(washingtonpost.com) {
+nav {
+    position: absolute !important;
+}
 
-    nav {
-        position: absolute !important;
-    }
-
-    figure > div {
-        filter: revert !important;
-    }
-
+figure > div {
+    filter: revert !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

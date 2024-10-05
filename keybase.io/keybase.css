@@ -1,9 +1,5 @@
-@-moz-document domain(keybase.io) {
-
-    .navbar-fixed-top {
-        position: absolute !important;
-    }
-
+.navbar-fixed-top {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

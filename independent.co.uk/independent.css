@@ -1,13 +1,9 @@
-@-moz-document domain(independent.co.uk) {
+body {
+    animation: none !important;
+}
 
-    body {
-        animation: none !important;
-    }
-
-    header#header {
-        position: absolute !important;
-    }
-
+header#header {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

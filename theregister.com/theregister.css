@@ -1,13 +1,9 @@
-@-moz-document domain(theregister.com) {
+#masthead {
+    position: static !important;
+}
 
-    #masthead {
-        position: static !important;
-    }
-
-    div.RegCTBWF_wrapper {
-        display: none !important;
-    }
-
+div.RegCTBWF_wrapper {
+    display: none !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

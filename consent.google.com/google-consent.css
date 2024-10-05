@@ -1,9 +1,5 @@
-@-moz-document domain(consent.google.com) {
-
-    div.signin {
-        display: none;
-    }
-
+div.signin {
+    display: none;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

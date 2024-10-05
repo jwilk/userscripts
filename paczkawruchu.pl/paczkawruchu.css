@@ -1,9 +1,5 @@
-@-moz-document domain(paczkawruchu.pl) {
-
-    section.faq-main ul li div {
-        display: block !important;
-    }
-
+section.faq-main ul li div {
+    display: block !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

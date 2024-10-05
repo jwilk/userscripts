@@ -1,9 +1,5 @@
-@-moz-document domain(tvtropes.org) {
-
-    .article-content .folder {
-        display: block !important;
-    }
-
+.article-content .folder {
+    display: block !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

@@ -1,13 +1,9 @@
-@-moz-document domain(groups.google.com) {
+html, body, body > div {
+    overflow: revert !important;
+}
 
-    html, body, body > div {
-        overflow: revert !important;
-    }
-
-    body > div, header#gb {
-        position: static !important;
-    }
-
+body > div, header#gb {
+    position: static !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

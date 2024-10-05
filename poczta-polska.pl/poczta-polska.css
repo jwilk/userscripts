@@ -1,13 +1,9 @@
-@-moz-document domain(poczta-polska.pl) {
+header.topper {
+    positioN: absolute !important;
+}
 
-    header.topper {
-        positioN: absolute !important;
-    }
-
-    ul.children {
-        display: block !important;
-    }
-
+ul.children {
+    display: block !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

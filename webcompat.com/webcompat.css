@@ -1,9 +1,5 @@
-@-moz-document domain(webcompat.com) {
-
-    .navigation {
-        position: absolute !important;
-    }
-
+.navigation {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

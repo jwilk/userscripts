@@ -1,9 +1,5 @@
-@-moz-document domain(fastcompany.com) {
-
-    .page-header {
-        position: absolute !important;
-    }
-
+.page-header {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

@@ -1,9 +1,5 @@
-@-moz-document domain(helpx.adobe.com) {
-
-    body {
-        display: revert !important;
-    }
-
+body {
+    display: revert !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

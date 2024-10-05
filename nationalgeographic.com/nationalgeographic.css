@@ -1,9 +1,5 @@
-@-moz-document domain(nationalgeographic.com) {
-
-    img[itemprop="contentUrl"] {
-        opacity: unset !important;
-    }
-
+img[itemprop="contentUrl"] {
+    opacity: unset !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

@@ -1,9 +1,5 @@
-@-moz-document domain(radiozet.pl) {
-
-    header#header__main, .radiozet-header, .back-to-home {
-        position: static !important;
-    }
-
+header#header__main, .radiozet-header, .back-to-home {
+    position: static !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

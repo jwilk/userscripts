@@ -1,13 +1,9 @@
-@-moz-document domain(what-if.xkcd.com) {
+.ref .refbody {
+    display: none !important;
+}
 
-    .ref .refbody {
-        display: none !important;
-    }
-
-    .ref:hover .refbody {
-        display: block !important;
-    }
-
+.ref:hover .refbody {
+    display: block !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

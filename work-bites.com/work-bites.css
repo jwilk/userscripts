@@ -1,12 +1,9 @@
-@-moz-document domain(work-bites.com) {
+header, .content-wrapper {
+    opacity: 1 !important;
+}
 
-    header, .content-wrapper {
-        opacity: 1 !important;
-    }
-
-    header {
-        position: absolute !important;
-    }
+header {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

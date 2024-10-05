@@ -1,9 +1,5 @@
-@-moz-document domain(apnews.com) {
-
-    .Header, .Header .header-featured-wrapper, .header-background {
-        position: absolute !important;
-    }
-
+.Header, .Header .header-featured-wrapper, .header-background {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

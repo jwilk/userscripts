@@ -1,21 +1,5 @@
-@-moz-document
-    domain(blog.mollie.com),
-    domain(blog.okmeter.io),
-    domain(blog.usejournal.com),
-    domain(engblog.nextdoor.com),
-    domain(itnext.io),
-    domain(mrooding.me),
-    domain(tech.instacart.com),
-    domain(thebolditalic.com),
-    domain(towardsdatascience.com),
-    domain(uxdesign.cc),
-    domain(medium.com)
-{
-
-    div.m {
-        position: absolute !important;
-    }
-
+div.m {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

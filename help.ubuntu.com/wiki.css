@@ -1,13 +1,9 @@
-@-moz-document domain(help.ubuntu.com) {
+.diff-added span {
+    background-color: #CFC;
+}
 
-    .diff-added span {
-        background-color: #CFC;
-    }
-
-    .diff-removed span {
-        background-color: #FCC;
-    }
-
+.diff-removed span {
+    background-color: #FCC;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

@@ -1,9 +1,5 @@
-@-moz-document domain(dw.com) {
-
-    .kRyphv {
-        position: absolute !important;
-    }
-
+.kRyphv {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

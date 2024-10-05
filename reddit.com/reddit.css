@@ -1,38 +1,33 @@
-@-moz-document domain(reddit.com)
-{
+section.listingsignupbar {
+    display: none !important;
+}
 
-    section.listingsignupbar {
-        display: none !important;
-    }
+div.expando {
+    display: block !important;
+}
 
-    div.expando {
-        display: block !important;
-    }
+div.expando span.error {
+    display: none;
+}
 
-    div.expando span.error {
-        display: none;
-    }
+div.gallery-tile {
+    display: none !important;
+}
 
-    div.gallery-tile {
-        display: none !important;
-    }
+div.gallery-preview {
+    display: block !important;
+}
 
-    div.gallery-preview {
-        display: block !important;
-    }
+ul.gallery-nav-bar {
+    display: none !important;
+}
 
-    ul.gallery-nav-bar {
-        display: none !important;
-    }
+faceplate-tracker, faceplate-tracker * {
+    visibility: visible !important;
+}
 
-    faceplate-tracker, faceplate-tracker * {
-        visibility: visible !important;
-    }
-
-    reddit-cookie-banner {
-        display: none !important;
-    }
-
+reddit-cookie-banner {
+    display: none !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

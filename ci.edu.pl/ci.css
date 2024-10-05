@@ -1,13 +1,9 @@
-@-moz-document domain(ci.edu.pl) {
+div#loader-site {
+    display: none !important;
+}
 
-    div#loader-site {
-        display: none !important;
-    }
-
-    div.fadeIn[data-delay] {
-        opacity: 100;
-    }
-
+div.fadeIn[data-delay] {
+    opacity: 100;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

@@ -1,13 +1,9 @@
-@-moz-document domain(pcmag.com) {
+#main-top-nav, #main-top-nav .logo {
+    position: absolute !important;
+}
 
-    #main-top-nav, #main-top-nav .logo {
-        position: absolute !important;
-    }
-
-    #subscribe_btn {
-        display: none !important;
-    }
-
+#subscribe_btn {
+    display: none !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

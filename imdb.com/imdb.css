@@ -1,10 +1,6 @@
-@-moz-document domain(imdb.com) {
-
-    .ipc-accordion__item__content {
-        height: revert !important;
-        visibility: revert !important;
-    }
-
+.ipc-accordion__item__content {
+    height: revert !important;
+    visibility: revert !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

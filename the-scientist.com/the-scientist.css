@@ -1,9 +1,5 @@
-@-moz-document domain(the-scientist.com) {
-
-    #MainHeader {
-        position: absolute !important;
-    }
-
+#MainHeader {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

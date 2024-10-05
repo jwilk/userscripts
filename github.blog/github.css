@@ -1,9 +1,5 @@
-@-moz-document domain(github.blog) {
-
-    .blog-header {
-        position: absolute !important;
-    }
-
+.blog-header {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

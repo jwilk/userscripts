@@ -1,9 +1,5 @@
-@-moz-document domain(singularityhub.com) {
-
-    .td-header-wrap {
-        position: static !important;
-    }
-
+.td-header-wrap {
+    position: static !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

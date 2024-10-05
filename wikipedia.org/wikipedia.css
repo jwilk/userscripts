@@ -1,22 +1,18 @@
-@-moz-document domain(wikipedia.org) {
+.mw-parser-output .cs1-maint {
+    color: #E80;
+    display: inline;
+}
 
-    .mw-parser-output .cs1-maint {
-        color: #E80;
-        display: inline;
-    }
+.mw-parser-output .cs1-hidden-error {
+    display: inline;
+}
 
-    .mw-parser-output .cs1-hidden-error {
-        display: inline;
-    }
+.vector-toc-landmark {
+    display: revert;
+}
 
-    .vector-toc-landmark {
-        display: revert;
-    }
-
-    #p-lang-btn .vector-dropdown-content {
-        display: revert;
-    }
-
+#p-lang-btn .vector-dropdown-content {
+    display: revert;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

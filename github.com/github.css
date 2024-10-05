@@ -1,73 +1,69 @@
-@-moz-document domain(github.com) {
+/* @-moz-document domain(github.com) */
 
-    .profile-rollup-content {
-        display: inherit !important;
-    }
-
-    .signup-prompt, .signup-prompt-bg {
-        display: none !important;
-    }
-
-    body.logged-out div[itemtype="http://schema.org/Person"] summary.btn-link.Link--muted {
-        display: none !important;
-    }
-
-    a.HeaderMenu-link[href^="/signup?"] {
-        display: none !important;
-    }
-
-    button.js-dismiss {
-        display: revert !important;
-    }
-
-    .js-position-sticky, .position-sticky {
-        position: static !important;
-    }
-
-    .email-hidden-toggle {
-        display: none !important;
-    }
-
-    .email-hidden-reply {
-        display: revert !important;
-    }
-
-    .Details:not(.Details--on) .Details-content--hidden.dashboard-rollup-items {
-        display: revert !important;
-    }
-
-    .js-comment-reactions-options {
-        display: block !important;
-    }
-
-    tool-tip[for^="reactions-"] {
-        display: inline !important;
-        position: relative !important;
-        font-size: smaller;
-    }
-
-    tool-tip[for^="reactions-"]::after {
-        content: " ";
-        display: block;
-        clear: both;
-    }
-
-    button[id^="reactions-"] {
-        display: inline !important;
-    }
-
-    .file-navigation ~ div relative-time {
-        font-size: x-small;
-    }
-
+.profile-rollup-content {
+    display: inherit !important;
 }
 
-@-moz-document domain(blog.github.com) {
+.signup-prompt, .signup-prompt-bg {
+    display: none !important;
+}
 
-    div.site-header {
-        position: relative !important;
-    }
+body.logged-out div[itemtype="http://schema.org/Person"] summary.btn-link.Link--muted {
+    display: none !important;
+}
 
+a.HeaderMenu-link[href^="/signup?"] {
+    display: none !important;
+}
+
+button.js-dismiss {
+    display: revert !important;
+}
+
+.js-position-sticky, .position-sticky {
+    position: static !important;
+}
+
+.email-hidden-toggle {
+    display: none !important;
+}
+
+.email-hidden-reply {
+    display: revert !important;
+}
+
+.Details:not(.Details--on) .Details-content--hidden.dashboard-rollup-items {
+    display: revert !important;
+}
+
+.js-comment-reactions-options {
+    display: block !important;
+}
+
+tool-tip[for^="reactions-"] {
+    display: inline !important;
+    position: relative !important;
+    font-size: smaller;
+}
+
+tool-tip[for^="reactions-"]::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+button[id^="reactions-"] {
+    display: inline !important;
+}
+
+.file-navigation ~ div relative-time {
+    font-size: x-small;
+}
+
+/* @-moz-document domain(blog.github.com) */
+
+div.site-header {
+    position: relative !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

@@ -1,9 +1,5 @@
-@-moz-document domain(docs.fedoraproject.org) {
-
-    .navbar, div.toolbar {
-        position: absolute !important;
-    }
-
+.navbar, div.toolbar {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

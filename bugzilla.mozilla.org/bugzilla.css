@@ -1,54 +1,50 @@
-@-moz-document domain(bugzilla.mozilla.org) {
+body {
+    scrollbar-color: unset !important;
+}
 
-    body {
-        scrollbar-color: unset !important;
-    }
+#header {
+    position: static !important;
+}
 
-    #header {
-        position: static !important;
-    }
+#header .link-browse .icon::before {
+    content: '\F03A';
+    font-family: 'ForkAwesome' !important;
+}
 
-    #header .link-browse .icon::before {
-        content: '\F03A';
-        font-family: 'ForkAwesome' !important;
-    }
+#header .searchbox-outer .icon::before,
+#header .link-search .icon::before {
+    content: '\F002';
+    font-family: 'ForkAwesome' !important;
+}
 
-    #header .searchbox-outer .icon::before,
-    #header .link-search .icon::before {
-        content: '\F002';
-        font-family: 'ForkAwesome' !important;
-    }
+#header .link-file .icon::before {
+    content: '\F016';
+    font-family: 'ForkAwesome' !important;
+}
 
-    #header .link-file .icon::before {
-        content: '\F016';
-        font-family: 'ForkAwesome' !important;
-    }
+#header .link-dashboard .icon::before {
+    content: '\F0E4';
+    font-family: 'ForkAwesome' !important;
+}
 
-    #header .link-dashboard .icon::before {
-        content: '\F0E4';
-        font-family: 'ForkAwesome' !important;
-    }
+#header-tools-menu-button .icon::before {
+    content: '»';
+    font-family: revert !important;
+}
 
-    #header-tools-menu-button .icon::before {
-        content: '»';
-        font-family: revert !important;
-    }
+#header-requests-menu-button .icon::before {
+    content: '\F32D';
+    font-family: 'ForkAwesome' !important;
+}
 
-    #header-requests-menu-button .icon::before {
-        content: '\F32D';
-        font-family: 'ForkAwesome' !important;
-    }
+#header-account-menu-button img {
+    display: none;
+}
 
-    #header-account-menu-button img {
-        display: none;
-    }
-
-    #header-account-menu-button::after {
-        content: '\F007';
-        font-family: 'ForkAwesome' !important;
-        font-size: 20px;
-    }
-
+#header-account-menu-button::after {
+    content: '\F007';
+    font-family: 'ForkAwesome' !important;
+    font-size: 20px;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

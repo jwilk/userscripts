@@ -1,33 +1,29 @@
-@-moz-document domain(wsjp.pl) {
+.fa-chevron-up {
+    content: '\F077' !important;
+    font-family: 'ForkAwesome' !important;
+}
 
-    .fa-chevron-up {
-        content: '\F077' !important;
-        font-family: 'ForkAwesome' !important;
-    }
+.fa-long-arrow-alt-right::before {
+    content: "→" !important;
+}
 
-    .fa-long-arrow-alt-right::before {
-        content: "→" !important;
-    }
+.fa-search::before {
+    content: '\F002' !important;
+    font-family: 'ForkAwesome' !important;
+}
 
-    .fa-search::before {
-        content: '\F002' !important;
-        font-family: 'ForkAwesome' !important;
-    }
+.fa-facebook-f::before {
+    content: '\F09A' !important;
+    font-family: 'ForkAwesome' !important;
+}
 
-    .fa-facebook-f::before {
-        content: '\F09A' !important;
-        font-family: 'ForkAwesome' !important;
-    }
+.fa-twitter::before {
+    content: '\F099' !important;
+    font-family: 'ForkAwesome' !important;
+}
 
-    .fa-twitter::before {
-        content: '\F099' !important;
-        font-family: 'ForkAwesome' !important;
-    }
-
-    #wsjp-wcag-toolbar {
-        display: none !important;
-    }
-
+#wsjp-wcag-toolbar {
+    display: none !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

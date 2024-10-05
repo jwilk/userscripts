@@ -1,13 +1,5 @@
-@-moz-document
-    domain(isap.sejm.gov.pl),
-    domain(isip.sejm.gov.pl),
-    domain(prawo.sejm.gov.pl)
-{
-
-    div.collapse {
-        display: block !important;
-    }
-
+div.collapse {
+    display: block !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

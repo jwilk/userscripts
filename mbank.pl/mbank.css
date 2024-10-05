@@ -1,17 +1,13 @@
-@-moz-document domain(mbank.pl) {
+div[id^="answer_"] {
+    display: revert !important;
+}
 
-    div[id^="answer_"] {
-        display: revert !important;
-    }
+.ep-grid .list-box {
+    display: revert !important;
+}
 
-    .ep-grid .list-box {
-        display: revert !important;
-    }
-
-    section {
-        opacity: 1 !important;
-    }
-
+section {
+    opacity: 1 !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

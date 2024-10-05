@@ -1,41 +1,35 @@
-@-moz-document domain(tvn24.pl) {
+/* @-moz-document domain(tvn24.pl) */
 
-    .headerInfoMessage, .noscript-message {
-        display: none !important;
-    }
-
-    .headerTop {
-        position: absolute !important;
-    }
-
-    header.header, footer.footer {
-        position: relative !important;
-    }
-
-    .tvn24go-banner {
-        display: none !important;
-    }
-
-    .twitter-tweet {
-        display: unset !important;
-    }
-
+.headerInfoMessage, .noscript-message {
+    display: none !important;
 }
 
-@-moz-document domain(tvn24bis.pl) {
-
-    .header-network {
-        position: absolute !important;
-    }
-
+.headerTop {
+    position: absolute !important;
 }
 
-@-moz-document domain(konkret24.tvn24.pl) {
+header.header, footer.footer {
+    position: relative !important;
+}
 
-    .loader {
-        display: none !important;
-    }
+.tvn24go-banner {
+    display: none !important;
+}
 
+.twitter-tweet {
+    display: unset !important;
+}
+
+/* @-moz-document domain(tvn24bis.pl) */
+
+.header-network {
+    position: absolute !important;
+}
+
+/* @-moz-document domain(konkret24.tvn24.pl) */
+
+.loader {
+    display: none !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

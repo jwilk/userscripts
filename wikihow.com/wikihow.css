@@ -1,9 +1,5 @@
-@-moz-document domain(wikihow.com) {
-
-    #header_outer {
-        position: absolute !important;
-    }
-
+#header_outer {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

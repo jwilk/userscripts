@@ -1,17 +1,13 @@
-@-moz-document domain(nytimes.com) {
+.NYTAppHideMasthead {
+    position: absolute !important;
+}
 
-    .NYTAppHideMasthead {
-        position: absolute !important;
-    }
+#NYT_TOP_BANNER_REGION {
+    position: static !important;
+}
 
-    #NYT_TOP_BANNER_REGION {
-        position: static !important;
-    }
-
-    header img {
-        opacity: 1 !important;
-    }
-
+header img {
+    opacity: 1 !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

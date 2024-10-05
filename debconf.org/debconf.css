@@ -1,13 +1,5 @@
-@-moz-document
-    domain(debconf18.debconf.org),
-    domain(debconf19.debconf.org),
-    domain(debconf20.debconf.org)
-{
-
-    .dropdown:hover ul.dropdown-menu {
-        display: block !important;
-    }
-
+.dropdown:hover ul.dropdown-menu {
+    display: block !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */

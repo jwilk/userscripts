@@ -1,9 +1,5 @@
-@-moz-document domain(merriam-webster.com) {
-
-    header.position-fixed {
-        position: absolute !important;
-    }
-
+header.position-fixed {
+    position: absolute !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
