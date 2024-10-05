@@ -71,17 +71,4 @@ for my $host (keys %hosts) {
     symlink 'nitter.net', $host;
 }
 
-my $css_path = 'nitter.net/nitter.css';
-my $css = slurp($css_path);
-my $css_domains = '';
-for my $host (sort keys %hosts) {
-    $css_domains .= "    domain($host),\n";
-}
-$css =~ s/^[@]-moz-document\n\K.*\n(?=\Q    domain(nitter.net)\E\n)/$css_domains/ms
-    or die;
-open my $fh, '>', $css_path;
-print {$fh} $css
-    or die $ERRNO;
-close $fh;
-
 # vim:ts=4 sts=4 sw=4 et
