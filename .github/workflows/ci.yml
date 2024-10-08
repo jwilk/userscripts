@@ -17,10 +17,12 @@ jobs:
     - name: check Nitter instances
       run: |
         .private/net-update-nitter
-        git diff -U0 --exit-code nitter.net
+        git add .
+        git diff -U0 --exit-code HEAD -S nitter.net
     - name: check Invidious instances
       run: |
         .private/net-update-invidious
-        git diff -U0 --exit-code invidious.example
+        git add .
+        git diff -U0 --exit-code HEAD -S invidious.example
 
 # vim:ts=2 sts=2 sw=2 et
