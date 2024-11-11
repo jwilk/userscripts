@@ -1,0 +1,14 @@
+li a::before {
+	font-family: 'ForkAwesome' !important;
+}
+
+.fusion-search-button input[type="submit"] {
+	font-family: 'ForkAwesome' !important;
+}
+
+.menu-item.fusion-dropdown-menu .fusion-dropdown-indicator::before {
+	font-family: revert !important;
+	content: "+" !important;
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
