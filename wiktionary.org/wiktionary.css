@@ -1,5 +1,5 @@
 .attentionseeking:before {
-    content: "!!!";
+    content: "\26A0";
     color: red;
 }
 
