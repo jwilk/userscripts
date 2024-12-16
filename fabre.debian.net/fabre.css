@@ -1,0 +1,46 @@
+.bi-bug-fill::before {
+    content: "\1F41B";
+    font-family: revert !important;
+}
+
+.bi-chat-square-dots::before {
+    content: "\1F4AC";
+    font-family: revert !important;
+}
+
+.bi-bar-chart-line::before {
+    content: "\1F5E0";
+    font-family: revert !important;
+}
+
+.bi-info-circle::before {
+    content: "\1F6C8";
+    font-family: revert !important;
+}
+
+.bi-info-circle-fill::before {
+    content: "\F05A";
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-question-circle-fill::before {
+    content: "\F059";
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-key::before {
+    content: "\1F511";
+    font-family: revert !important;
+}
+
+.bi-incognito::before {
+    content: "\1F576";
+    font-family: revert !important;
+}
+
+.bi-robot::before {
+    content: "\1F916";
+    font-family: revert !important;
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
