@@ -58,4 +58,9 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.ion-ios-search::before {
+    content: '\F002' !important;
+    font-family: 'ForkAwesome' !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
