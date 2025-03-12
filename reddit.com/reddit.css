@@ -26,6 +26,18 @@ faceplate-tracker, faceplate-tracker * {
     visibility: visible !important;
 }
 
+faceplate-tracker[noun="image"] main {
+    height: unset !important;
+}
+
+reddit-header-large {
+    position: absolute !important;
+}
+
+shreddit-app:not(:defined)::before {
+    position: absolute !important;
+}
+
 reddit-cookie-banner {
     display: none !important;
 }
