@@ -1,5 +1,5 @@
-.Header, .Header .header-featured-wrapper, .header-background {
-    position: absolute !important;
+.Page-header-stickyWrap {
+    position: relative !important;
 }
 
 /* vim:set ts=4 sts=4 sw=4 et: */
