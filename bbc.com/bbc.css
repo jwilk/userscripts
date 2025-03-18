@@ -3,4 +3,8 @@ header, nav {
     top: 0 !important;
 }
 
+div[data-testid="ad-unit"] {
+    display: none !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
