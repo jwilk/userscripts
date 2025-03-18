@@ -3,8 +3,14 @@ on:
 - push
 - pull_request
 jobs:
-  main:
+
+  net-update:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        type:
+        - nitter
+        - invidious
     steps:
     - uses: actions/checkout@v4
     - name: set up APT
@@ -14,15 +20,10 @@ jobs:
     - name: install deps
       run:
         sudo apt-get install libio-socket-ssl-perl
-    - name: check Nitter instances
+    - name: check ${{matrix.type}} instances
       run: |
-        .private/net-update-nitter
+        .private/net-update-${{matrix.type}}
         git add .
-        git diff -U0 --exit-code HEAD -S nitter.net
-    - name: check Invidious instances
-      run: |
-        .private/net-update-invidious
-        git add .
-        git diff -U0 --exit-code HEAD -S invidious.example
+        git diff -U0 --exit-code HEAD -S ${{matrix.type}}
 
 # vim:ts=2 sts=2 sw=2 et
