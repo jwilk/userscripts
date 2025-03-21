@@ -6,4 +6,9 @@ button.js-book-read-more {
     display: none !important;
 }
 
+header {
+    position: relative !important;
+    top: revert !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
