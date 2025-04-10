@@ -1,4 +1,4 @@
-#mm-root > header {
+header .fixed {
     position: absolute !important;
 }
 
