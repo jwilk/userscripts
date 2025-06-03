@@ -47,4 +47,23 @@ nav {
     font-family: revert !important;
 }
 
+.icon-down::before {
+    content: '\F107';
+    font-family: 'ForkAwesome' !important;
+}
+
+.icon-play::before {
+    content: '\F04B';
+    font-family: 'ForkAwesome' !important;
+}
+
+div.date-range .icon-calendar::before {
+	display: none;
+}
+
+.checkbox-container .checkbox::after {
+    content: '\2714';
+    font-family: revert !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
