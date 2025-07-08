@@ -57,6 +57,30 @@ nav {
     font-family: 'ForkAwesome' !important;
 }
 
+.icon-location::before {
+    content: '\F276';
+    font-family: 'ForkAwesome' !important;
+
+}
+
+.icon-link::before {
+    content: '\F0C1';
+    font-family: 'ForkAwesome' !important;
+
+}
+
+.icon-calendar::before {
+    content: '\F073';
+    font-family: 'ForkAwesome' !important;
+
+}
+
+.icon-picture::before {
+    content: '\F03E';
+    font-family: 'ForkAwesome' !important;
+
+}
+
 div.date-range .icon-calendar::before {
 	display: none;
 }
