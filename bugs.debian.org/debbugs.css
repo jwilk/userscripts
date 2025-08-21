@@ -2,7 +2,7 @@ body, html, h1, h2, h3 {
     background-color: #fff;
 }
 
-#uselessmesages, label[for="uselessmessages"] {
+#uselessmessages, label[for="uselessmessages"] {
     display: none !important;
 }
 
