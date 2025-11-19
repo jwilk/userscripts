@@ -47,6 +47,11 @@ nav {
     font-family: 'ForkAwesome' !important;
 }
 
+.icon-views::before {
+    content: '\F06E';
+    font-family: 'ForkAwesome' !important;
+}
+
 .icon-ok::before {
     content: '\F00C';
     font-family: 'ForkAwesome' !important;
