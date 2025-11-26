@@ -1,0 +1,31 @@
+.bi-geo-alt::before {
+    content: '\F276';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-flag::before {
+    content: '\F11D';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-pencil::before {
+    content: '\F044';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-compass::before {
+    content: '\F14E';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-question-circle::before {
+    content: '\F29C';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-crosshair::before {
+    content: '\F05B';
+    font-family: 'ForkAwesome' !important;
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
