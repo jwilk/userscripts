@@ -52,6 +52,11 @@ nav {
     font-family: 'ForkAwesome' !important;
 }
 
+.icon-circle::before {
+    content: '\2B24';
+    font-family: revert !important;
+}
+
 .icon-ok::before {
     content: '\F00C';
     font-family: 'ForkAwesome' !important;
