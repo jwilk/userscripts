@@ -28,4 +28,24 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.bi-gear::before {
+    content: '\F013';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-car-front-fill::before {
+    content: '\F1B9';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-bicycle::before {
+    content: '\F206';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-person-walking::before {
+    content: '\F183';
+    font-family: 'ForkAwesome' !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
