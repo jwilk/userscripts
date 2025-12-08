@@ -48,6 +48,11 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.ion-md-open::before {
+    content: '\F08E' !important;
+    font-family: 'ForkAwesome' !important;
+}
+
 .ion-md-headset::before {
     content: '\F025' !important;
     font-family: 'ForkAwesome' !important;
