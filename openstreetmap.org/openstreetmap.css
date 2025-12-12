@@ -1,14 +1,14 @@
-.bi-geo-alt::before {
-    content: '\F276';
+.bi-play::before {
+    content: '\F04B';
     font-family: 'ForkAwesome' !important;
 }
 
-.bi-flag::before {
-    content: '\F11D';
+.bi-stop::before {
+    content: '\F04D';
     font-family: 'ForkAwesome' !important;
 }
 
-.bi-pencil::before {
+.bi-chat-text::before {
     content: '\F044';
     font-family: 'ForkAwesome' !important;
 }
@@ -18,8 +18,8 @@
     font-family: 'ForkAwesome' !important;
 }
 
-.bi-question-circle::before {
-    content: '\F29C';
+.bi-question::before {
+    content: '\F128';
     font-family: 'ForkAwesome' !important;
 }
 
