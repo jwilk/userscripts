@@ -1,0 +1,9 @@
+.fa, .fas {
+    font-family: 'ForkAwesome';
+}
+
+.fa-book-open::before {
+ 	content: '\1F4D6';
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
