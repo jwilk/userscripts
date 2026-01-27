@@ -1,14 +1,15 @@
-.bi-play::before {
-    content: '\F04B';
+.bi-cursor::before {
+    content: '\F124';
     font-family: 'ForkAwesome' !important;
 }
 
-.bi-stop::before {
-    content: '\F04D';
+.bi-flag::before {
+    content: '\F024';
     font-family: 'ForkAwesome' !important;
+
 }
 
-.bi-chat-text::before {
+.bi-chat-square-text::before {
     content: '\F044';
     font-family: 'ForkAwesome' !important;
 }
@@ -18,7 +19,7 @@
     font-family: 'ForkAwesome' !important;
 }
 
-.bi-question::before {
+.bi-question-lg::before {
     content: '\F128';
     font-family: 'ForkAwesome' !important;
 }
@@ -45,6 +46,41 @@
 
 .bi-person-walking::before {
     content: '\F183';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-plus-lg::before {
+    content: "\F067";
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-dash-lg::before {
+    content: "\F068";
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-cursor-fill::before {
+    content: '\F124';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-stack::before {
+    content: '\F0C9';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-info-lg::before {
+    content: '\F129';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-share-fill::before {
+    content: '\F064';
+    font-family: 'ForkAwesome' !important;
+}
+
+.bi-chat-square-text-fill::before {
+    content: '\F044';
     font-family: 'ForkAwesome' !important;
 }
 
