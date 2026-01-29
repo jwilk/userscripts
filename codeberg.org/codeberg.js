@@ -1,5 +1,5 @@
 let elt = document.querySelector('a.link-action[data-url="/user/logout"]');
-elt.addEventListener('click', function(evt) {
+elt && elt.addEventListener('click', function(evt) {
     evt.preventDefault();
     let url = new URL(elt.dataset.url, location);
     fetch(url, {"method": "POST"}).then(function() {
