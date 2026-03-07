@@ -1,11 +1,7 @@
 async function solve(progress) {
     const challenge = document.cookie.match(/pow_challenge=([^;]+)/)[1];
-    const params = new URLSearchParams(location.search);
-    const orig_url = params.get('original') || '/';
     const encoder = new TextEncoder()
     for (let i = 0; ; i++) {
-        if (await cookieStore.get('pow_nonce'))
-            break;
         progress.value = i;
         progress.max = i + 0xFFFF;
         const message = `${challenge};${i}`;
@@ -17,10 +13,21 @@ async function solve(progress) {
         await cookieStore.set({name: 'pow_nonce', value: i});
         break;
     }
-    location.href = orig_url;
+}
+
+function cookie_monitor(event)
+{
+    for (const cookie of event.changed) {
+        if (cookie.name == 'pow_nonce') {
+            const params = new URLSearchParams(location.search);
+            const orig_url = params.get('original') || '/';
+            location.href = orig_url;
+        }
+    }
 }
 
 if (location.pathname == '/challenge.html') {
+    cookieStore.addEventListener('change', cookie_monitor);
     let progress = document.createElement('progress');
     progress.style.width = '100%';
     progress.value = 0;
