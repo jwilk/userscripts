@@ -4,6 +4,8 @@ async function solve(progress) {
     const orig_url = params.get('original') || '/';
     const encoder = new TextEncoder()
     for (let i = 0; ; i++) {
+        if (await cookieStore.get('pow_nonce'))
+            break;
         progress.value = i;
         progress.max = i + 0xFFFF;
         const message = `${challenge};${i}`;
@@ -13,9 +15,9 @@ async function solve(progress) {
         if (ahash[0] || ahash[1])
             continue;
         document.cookie = `pow_nonce=${i}; path=/`;
-        location.href = orig_url;
-        return;
+        break;
     }
+    location.href = orig_url;
 }
 
 if (location.pathname == '/challenge.html') {
