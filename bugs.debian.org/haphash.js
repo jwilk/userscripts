@@ -14,7 +14,7 @@ async function solve(progress) {
         const ahash = new Uint8Array(hash);
         if (ahash[0] || ahash[1])
             continue;
-        document.cookie = `pow_nonce=${i}; path=/`;
+        await cookieStore.set({name: 'pow_nonce', value: i});
         break;
     }
     location.href = orig_url;
