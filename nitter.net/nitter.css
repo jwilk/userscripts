@@ -7,7 +7,7 @@ nav {
     font-family: 'ForkAwesome' !important;
 }
 
-.icon-rss-feed::before {
+.icon-rss::before {
     content: '\F09E' !important;
     font-family: 'ForkAwesome' !important;
 }
