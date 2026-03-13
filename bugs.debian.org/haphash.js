@@ -1,5 +1,6 @@
 async function solve(progress) {
-    const challenge = document.cookie.match(/pow_challenge=([^;]+)/)[1];
+    const cookie = await cookieStore.get('pow_challenge');
+    const challenge = cookie.value;
     const encoder = new TextEncoder()
     for (let i = 0; ; i++) {
         progress.value = i;
