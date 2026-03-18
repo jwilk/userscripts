@@ -4,12 +4,12 @@ async function solve(progress) {
     const encoder = new TextEncoder()
     for (let i = 0; ; i++) {
         progress.value = i;
-        progress.max = i + 0xFFFF;
+        progress.max = i + 0xFF;
         const message = `${challenge};${i}`;
         const bytes = encoder.encode(message);
         const hash = await window.crypto.subtle.digest('SHA-256', bytes);
         const ahash = new Uint8Array(hash);
-        if (ahash[0] || ahash[1])
+        if (ahash[0])
             continue;
         await cookieStore.set({name: 'pow_nonce', value: i});
         break;
@@ -32,7 +32,7 @@ if (location.pathname == '/challenge.html') {
     let progress = document.createElement('progress');
     progress.style.width = '100%';
     progress.value = 0;
-    progress.max = 0xFFFF;
+    progress.max = 0xFF;
     document.body.appendChild(progress);
     let button = document.createElement('button');
     button.textContent = 'Challenge accepted!';
