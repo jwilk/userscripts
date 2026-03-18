@@ -29,15 +29,18 @@ function cookie_monitor(event)
 
 if (location.pathname == '/challenge.html') {
     cookieStore.addEventListener('change', cookie_monitor);
-    let progress = document.createElement('progress');
-    progress.style.width = '100%';
-    progress.value = 0;
-    progress.max = 0xFF;
-    document.body.appendChild(progress);
-    let button = document.createElement('button');
-    button.textContent = 'Challenge accepted!';
-    button.onclick = function() { solve(progress); };
-    document.body.appendChild(button);
+    let progress = document.querySelector('progress');
+    if (progress === null) {
+        progress = document.createElement('progress');
+        progress.style.width = '100%';
+        progress.value = 0;
+        progress.max = 0xFF;
+        document.body.appendChild(progress);
+        let button = document.createElement('button');
+        button.textContent = 'Challenge accepted!';
+        button.onclick = function() { solve(progress); };
+        document.body.appendChild(button);
+    }
 }
 
 // vim:ts=4 sts=4 sw=4 et
