@@ -31,15 +31,15 @@ function cookie_monitor(event)
     }
 }
 
-if (location.pathname == '/challenge.html') {
-    cookieStore.addEventListener('change', cookie_monitor);
-    let button = document.querySelector('button');
-    if (button === null) {
-        button = document.createElement('button');
-        button.textContent = 'Challenge accepted!';
-        button.onclick = solve;
-        document.body.appendChild(button);
-    }
-}
+if (location.pathname != '/challenge.html')
+    return;
+let button = document.querySelector('button');
+if (button !== null)
+    return;
+button = document.createElement('button');
+button.textContent = 'Challenge accepted!';
+button.onclick = solve;
+document.body.appendChild(button);
+cookieStore.addEventListener('change', cookie_monitor);
 
 // vim:ts=4 sts=4 sw=4 et
