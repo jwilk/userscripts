@@ -1,10 +1,11 @@
-async function solve(progress) {
+async function solve() {
+    const bar = document.getElementById('progressBar');
+    bar.innerText = '🌀';
     const cookie = await cookieStore.get('pow_challenge');
     const challenge = cookie.value;
     const encoder = new TextEncoder()
     for (let i = 0; ; i++) {
-        progress.value = i;
-        progress.max = i + 0xFF;
+        bar.style.rotate = `${i}deg`;
         const message = `${challenge};${i}`;
         const bytes = encoder.encode(message);
         const hash = await window.crypto.subtle.digest('SHA-256', bytes);
@@ -20,6 +21,9 @@ function cookie_monitor(event)
 {
     for (const cookie of event.changed) {
         if (cookie.name == 'pow_nonce') {
+            const bar = document.getElementById('progressBar');
+            bar.innerText = '✅';
+            bar.style.rotate = '';
             const params = new URLSearchParams(location.search);
             const orig_url = params.get('original') || '/';
             location.href = orig_url;
@@ -29,16 +33,11 @@ function cookie_monitor(event)
 
 if (location.pathname == '/challenge.html') {
     cookieStore.addEventListener('change', cookie_monitor);
-    let progress = document.querySelector('progress');
-    if (progress === null) {
-        progress = document.createElement('progress');
-        progress.style.width = '100%';
-        progress.value = 0;
-        progress.max = 0xFF;
-        document.body.appendChild(progress);
-        let button = document.createElement('button');
+    let button = document.querySelector('button');
+    if (button === null) {
+        button = document.createElement('button');
         button.textContent = 'Challenge accepted!';
-        button.onclick = function() { solve(progress); };
+        button.onclick = solve;
         document.body.appendChild(button);
     }
 }
