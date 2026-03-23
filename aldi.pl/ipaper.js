@@ -6,7 +6,7 @@ if (div !== null && div.childElementCount == 0) {
     paper_url += '/GetPDF.ashx';
     let link = document.createElement('a');
     link.href = paper_url;
-    link.text = '⤓ PDF'
+    link.text = 'PDF'
     div.appendChild(link);
 }
 

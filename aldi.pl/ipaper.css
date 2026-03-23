@@ -1,0 +1,7 @@
+a[href$="/GetPDF.ashx"]::before {
+    content: '\F019';
+    font-family: 'ForkAwesome' !important;
+    margin-right: 0.4em;
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
