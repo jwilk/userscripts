@@ -12,4 +12,8 @@ section[class*="NavLayout_categoryWrapper_"] {
     top: 0 !important;
 }
 
+div.styles-module_productDescriptionItem div {
+    max-height: revert !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
