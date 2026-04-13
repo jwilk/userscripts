@@ -2,4 +2,8 @@
     position: relative !important;
 }
 
+.icon-audio::before {
+    display: none;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
