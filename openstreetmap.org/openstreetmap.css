@@ -49,6 +49,11 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.bi-arrow-down-up::before {
+    content: "\F175\F176";
+    font-family: 'ForkAwesome' !important;
+}
+
 .bi-plus-lg::before {
     content: "\F067";
     font-family: 'ForkAwesome' !important;
