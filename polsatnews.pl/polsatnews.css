@@ -2,4 +2,8 @@
     position: static !important;
 }
 
+div.news__description, div.news__description strong {
+    font-weight: normal !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
