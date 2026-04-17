@@ -1,1 +1,0 @@
-../bugs.debian.org/haphash.js
