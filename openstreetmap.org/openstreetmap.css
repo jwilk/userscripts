@@ -89,4 +89,9 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.bi-translate::before {
+    content: '\F1AB';
+    font-family: 'ForkAwesome' !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
