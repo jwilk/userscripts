@@ -2,4 +2,21 @@
     display: block !important;
 }
 
+span.notelabel {
+    display: none;
+}
+
+span[id^="note"] {
+    display: revert !important;
+    opacity: 0.9;
+}
+
+span[id^="note"]::before {
+    content: " [";
+}
+
+span[id^="note"]::after {
+    content: "]";
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
