@@ -1,0 +1,11 @@
+.ci-download::before {
+    content: '\F019' !important;
+    font-family: 'ForkAwesome' !important;
+}
+
+.ci-info::before {
+    content: '\1F6C8' !important;
+    font: revert !important;
+}
+
+/* vim:set ts=4 sts=4 sw=4 et: */
