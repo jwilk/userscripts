@@ -12,6 +12,7 @@ jobs:
         type:
         - nitter
         - invidious
+    timeout-minutes: 2
     steps:
     - uses: actions/checkout@v4
     - name: set up APT
