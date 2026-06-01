@@ -31,7 +31,7 @@ function cookie_monitor(event)
     }
 }
 
-if (location.pathname != '/challenge.html')
+if (location.pathname != '/.internal/challenge.html')
     return;
 let button = document.querySelector('button');
 if (button !== null)
