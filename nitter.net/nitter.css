@@ -101,6 +101,11 @@ nav {
 
 }
 
+.icon-download-alt::before {
+    content: '\F019';
+    font-family: 'ForkAwesome' !important;
+}
+
 div.date-range .icon-calendar::before {
 	display: none;
 }
