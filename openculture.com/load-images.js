@@ -1,7 +1,6 @@
 let lazy_images = document.querySelectorAll('img.lazy')
 for (let img of lazy_images) {
     img.src = img.dataset.src;
-    console.log(img.dataset.srcset);
     if (img.dataset.srcset !== undefined) {
         img.srcset = img.dataset.srcset;
     }
