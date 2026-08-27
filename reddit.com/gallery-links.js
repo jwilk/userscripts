@@ -1,12 +1,10 @@
 let title_links = document.querySelectorAll('a.title[href^="https://www.reddit.com/gallery/"]');
 for (let title_link of title_links) {
-    console.log(title_link);
     let elt = title_link;
     while (elt !== null && !elt.classList.contains('entry'))
         elt = elt.parentNode;
     if (elt === null)
         break;
-    console.log(elt);
     let comments_link = elt.querySelector('a.comments');
     if (comments_link === null)
         break;
