@@ -15,4 +15,8 @@
     height: 8pt !important;
 }
 
+#navbar {
+    text-shadow: revert !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
