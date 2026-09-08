@@ -29,16 +29,6 @@ sub urlget
     return $response->{content};
 }
 
-sub slurp
-{
-    my ($path) = @_;
-    local $RS = undef;
-    open my $fh, '<', $path;
-    $_ = <$fh>;
-    close $fh;
-    return $_;
-}
-
 chdir "$FindBin::Bin/..";
 
 my $wiki_url = 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md';
