@@ -30,16 +30,6 @@ sub urlget
     return $response->{content};
 }
 
-sub slurp
-{
-    my ($path) = @_;
-    local $RS = undef;
-    open my $fh, '<', $path;
-    $_ = <$fh>;
-    close $fh;
-    return $_;
-}
-
 chdir "$FindBin::Bin/..";
 
 my $data_url = 'https://api.invidious.io/instances.json';
