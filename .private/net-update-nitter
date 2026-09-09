@@ -33,6 +33,7 @@ sub urlget
 
 chdir "$FindBin::Bin/..";
 
+# https://github.com/zedeus/nitter/wiki/Instances
 my $wiki_url = 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md';
 my $wiki = urlget($wiki_url);
 
@@ -50,6 +51,7 @@ while ($wiki =~ m{^[|] \[([\w.]+)\][(]([\w:./]+)[)]}mg) {
     $hosts{$host} = 1;
 }
 
+# https://codeberg.org/mv12star/shitter/wiki/Instances
 my $api_url = 'https://codeberg.org/api/v1/repos/mv12star/shitter/wiki/page/Instances';
 my $json = urlget($api_url);
 $json = JSON::PP::decode_json($json);
