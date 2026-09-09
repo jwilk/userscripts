@@ -13,6 +13,8 @@ use v5.14;
 use English qw(-no_match_vars);
 use FindBin ();
 use HTTP::Tiny ();
+use JSON::PP ();
+use MIME::Base64 qw(decode_base64);
 
 sub urlget
 {
@@ -48,6 +50,22 @@ while ($wiki =~ m{^[|] \[([\w.]+)\][(]([\w:./]+)[)]}mg) {
     $hosts{$host} = 1;
 }
 
+my $api_url = 'https://codeberg.org/api/v1/repos/mv12star/shitter/wiki/page/Instances';
+my $json = urlget($api_url);
+$json = JSON::PP::decode_json($json);
+$wiki = decode_base64($json->{content_base64});
+my %hosts2;
+while ($wiki =~ m{# (Working|Active).*\n(([^#].*\n)+)}g) {
+    my $section = $2;
+    while ($section =~ m{^- https://([\w.]+)}mg) {
+        my $host = $1;
+        if (defined $hosts2{host}) {
+            die "shitter/Instances.md: duplicate host $host"
+        };
+        $hosts2{$host} = 1;
+    }
+}
+
 for my $path (glob '*') {
     my $target = eval { readlink $path }
         or next;
@@ -56,6 +74,7 @@ for my $path (glob '*') {
     unlink $path;
 }
 
+%hosts = (%hosts, %hosts2);
 for my $host (keys %hosts) {
     symlink 'nitter.net', $host;
 }
