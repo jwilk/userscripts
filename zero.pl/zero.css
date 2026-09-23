@@ -1,4 +1,9 @@
 header.header {
     position: relative;
 }
+
+p strong, p b {
+    font-weight: normal;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
