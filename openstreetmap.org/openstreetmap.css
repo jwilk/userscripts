@@ -14,6 +14,11 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.bi-chat::before {
+    content: '\F086';
+    font-family: 'ForkAwesome' !important;
+}
+
 .bi-compass::before {
     content: '\F14E';
     font-family: 'ForkAwesome' !important;
