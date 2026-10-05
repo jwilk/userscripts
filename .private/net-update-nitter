@@ -40,7 +40,7 @@ my $wiki = urlget($wiki_url);
 $wiki =~ s/.*\n## Public\n//s;
 $wiki =~ s/\n\K#.*//s;
 my %hosts;
-while ($wiki =~ m{^[|] \[([\w.]+)\][(]([\w:./]+)[)]}mg) {
+while ($wiki =~ m{^[|] \[([\w.-]+)\][(]([\w:./-]+)[)]}mg) {
     my $host = $1;
     my $url = $2;
     $url =~ m{\Ahttps://\Q$host\E/?\z}
@@ -59,7 +59,7 @@ $wiki = decode_base64($json->{content_base64});
 my %hosts2;
 while ($wiki =~ m{# (Working|Active).*\n(([^#].*\n)+)}g) {
     my $section = $2;
-    while ($section =~ m{^- https://([\w.]+)}mg) {
+    while ($section =~ m{^- https://([\w.-]+)}mg) {
         my $host = $1;
         if (defined $hosts2{host}) {
             die "shitter/Instances.md: duplicate host $host"
