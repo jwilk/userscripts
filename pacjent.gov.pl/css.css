@@ -8,4 +8,19 @@
     font: revert !important;
 }
 
+.ci-arrow-left::before {
+    content: '←' !important;
+    font: revert !important;
+}
+
+.ci-arrow-right::before {
+    content: '→' !important;
+    font: revert !important;
+}
+
+.ci-arrow-bottom::before {
+    content: '↓' !important;
+    font: revert !important;
+}
+
 /* vim:set ts=4 sts=4 sw=4 et: */
