@@ -51,8 +51,8 @@ while ($wiki =~ m{^[|] \[([\w.-]+)\][(]([\w:./-]+)[)]}mg) {
     $hosts{$host} = 1;
 }
 
-# https://codeberg.org/mv12star/shitter/wiki/Instances
-my $api_url = 'https://codeberg.org/api/v1/repos/mv12star/shitter/wiki/page/Instances';
+# https://codeberg.org/shitter/shitter/wiki/Instances
+my $api_url = 'https://codeberg.org/api/v1/repos/shitter/shitter/wiki/page/Instances';
 my $json = urlget($api_url);
 $json = JSON::PP::decode_json($json);
 $wiki = decode_base64($json->{content_base64});
