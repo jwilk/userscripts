@@ -84,6 +84,11 @@
     font-family: 'ForkAwesome' !important;
 }
 
+.bi-info-circle::before {
+    content: '\F05A';
+    font-family: 'ForkAwesome' !important;
+}
+
 .bi-share-fill::before {
     content: '\F064';
     font-family: 'ForkAwesome' !important;
